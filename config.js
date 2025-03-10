@@ -7,8 +7,8 @@ global.audio= "" ;
 global.video= "" ;
 global.port =process.env.PORT 
 global.appUrl=process.env.APP_URL || ""     // put your deploy app/bot url here, for 24/7 for (render , koyeb, glitch)
-global.email ="saimsamsun789@gmail.com"
-global.location="Lahore,Pakistan."
+global.email ="sagep176@gmail.com"
+global.location="Lagos, Nigeria."
 
 
 global.mongodb= process.env.MONGODB_URI || "false"  
@@ -16,15 +16,15 @@ global.allowJids= process.env.ALLOW_JID || "null"
 global.blockJids= process.env.BLOCK_JID || "null"
 global.DATABASE_URL = process.env.DATABASE_URL || "false"
 
-global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
-global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md-3";
+global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
+global.github=process.env.GITHUB|| "https://github.com/oluwaseg/Suhail-Md-3";
 global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07";
 global.website =process.env.GURL || "https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07" ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://i.ibb.co/TgwRyHR/Ephoto360-com-166de101e03cd7.jpg" || "https://i.ibb.co/bH1kbX0/a4c0b1af253197d4837ff6760d5b81c0.jpg" ; // SET LOGO FOR IMAGE 
 global.caption = process.env.CAPTION || global.caption || "Made With LOVE!" 
 
 
-global.devs = "" // Developer Contacts
+global.devs = "+2349048095407" // Developer Contacts
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
 global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "";
 
@@ -73,10 +73,10 @@ module.exports = {
   VERSION : process.env.VERSION || "3.0.1-developement",
   caption : global.caption || "" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ GlobalTechInfo ® 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@GlobalTechInfo"),
  
-  author : process.env.PACK_AUTHER|| "",
-  packname: process.env.PACK_NAME || "",
-  botname : process.env.BOT_NAME  || "Suhail-MD",
-  ownername:process.env.OWNER_NAME|| "Suhail:Shy<3",
+  author : process.env.PACK_AUTHER|| "Sage",
+  packname: process.env.PACK_NAME || "Baka",
+  botname : process.env.BOT_NAME  || "Itadori's bot",
+  ownername:process.env.OWNER_NAME|| "Sage Itadori",
 
 
   errorChat : process.env.ERROR_CHAT || "",
